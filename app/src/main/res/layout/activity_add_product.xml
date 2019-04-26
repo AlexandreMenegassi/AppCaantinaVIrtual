@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:padding="20dp"
+    tools:context=".AddProductActivity">
+
+    <EditText
+        android:id="@+id/addProductNameId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nome do Produto" />
+
+    <RadioGroup
+        android:id="@+id/rdCategoryProductId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <RadioButton
+            android:id="@+id/rdCategorySalgadoId"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="SALGADO"/>
+        <RadioButton
+            android:id="@+id/rdCategoryDoceId"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="DOCE"/>
+        <RadioButton
+            android:id="@+id/rdCategoryBebidaId"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="BEBIDA"/>
+    </RadioGroup>
+
+    <EditText
+        android:id="@+id/addProductMoneyId"
+        android:layout_width="140dp"
+        android:layout_height="wrap_content"
+        android:hint="R$: PREÇO"
+        android:inputType="number" />
+
+    <Button
+        android:id="@+id/addBtnProductId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ADICIONAR PRODUTO" />
+
+    <ImageView
+        android:id="@+id/btnVoltarId"
+        app:srcCompat="@drawable/btn_voltar"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_marginTop="20dp" />
+
+</LinearLayout>

@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">App Cantina Virtual</string>
+    <string name="title_list_client">Lista de Cliente</string>
+    <string name="title_list_product">Lista de Produtos</string>
+    <string name="title_list_sales">Vendas Diárias</string>
+    <string name="title_sales">Vender</string>
+    <string name="action_client">Adicionar Cliente</string>
+    <string name="action_product">Adicionar Produto</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
